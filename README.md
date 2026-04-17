@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a simplified retail data warehouse and performs business intelligence (BI) analysis using SQL and Python. The focus is on demonstrating how to have multiple tables and analyze them using JOIN operations.
+This project performs business intelligence analysis using SQL and Python. The focus is on demonstrating how to have multiple tables and analyze them using JOIN operations.
 
 ---
 
