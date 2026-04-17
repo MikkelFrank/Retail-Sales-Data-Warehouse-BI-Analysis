@@ -97,25 +97,14 @@ This project demonstrates how to structure data into a relational model and perf
 
 ---
 
-## Future Improvements
-
-* Extend the data model with geographic information (region, country, city)
-* Build an interactive dashboard (e.g., Streamlit or Power BI)
-* Analyze customer lifetime value (CLV)
-* Add more advanced SQL techniques (window functions, ranking, cohort analysis)
-
----
-
 ## Project Structure
 
 ```text
-project/
+Retail_Sales_Data_Warehouse_&_BI_Analysis/
 ├── data/
 │   ├── customers.csv
 │   ├── orders.csv
 │   ├── products.csv
 │   ├── sales.csv
-│   └── train.csv
 ├── retail_data_warehouse_analysis.ipynb
-├── README.md
 ```
