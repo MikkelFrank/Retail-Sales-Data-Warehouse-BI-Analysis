@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project performs business intelligence analysis using SQL and Python. The focus is on demonstrating how to have multiple tables and analyze them using JOIN operations.
+This project performs business intelligence analysis using SQL and Python. The focus is on working with multiple related tables and analyzing them using SQL JOIN operations.
 
 ---
 
@@ -28,10 +28,14 @@ The goal of this project is to:
 
 ## Datasets
 
+The dataset is structured into multiple related tables:
+
 * **customers**: customer_id, customer_name, segment
 * **orders**: order_id, order_date, ship_date, ship_mode, customer_id
 * **products**: product_id, product_name, category, sub_category
 * **sales**: order_id, product_id, sales
+
+This structure enables more realistic SQL queries using joins.
 
 ---
 
@@ -83,7 +87,7 @@ The following visualizations were created:
 
 ## Conclusion
 
-This project demonstrates how to perform SQL-based BI analysis using multiple tables. The results highlight the importance of joins, aggregation, and correct data granularity in producing meaningful business insights.
+This project demonstrates how to perform SQL-based BI analysis using multiple related tables. The results highlight the importance of joins, aggregation, and correct data granularity in producing meaningful business insights.
 
 ---
 
