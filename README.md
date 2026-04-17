@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project builds a simplified retail data warehouse and performs business intelligence (BI) analysis using SQL and Python. The focus is on demonstrating how to structure data into multiple tables and analyze it using JOIN operations.
+This project builds a simplified retail data warehouse and performs business intelligence (BI) analysis using SQL and Python. The focus is on demonstrating how to have multiple tables and analyze them using JOIN operations.
 
 ---
 
@@ -10,7 +10,6 @@ This project builds a simplified retail data warehouse and performs business int
 
 The goal of this project is to:
 
-* Transform a flat dataset into a structured data model
 * Practice SQL joins across multiple tables
 * Perform BI-style analysis on sales and customers
 * Create clear and meaningful visualizations
@@ -27,21 +26,12 @@ The goal of this project is to:
 
 ---
 
-## Data Modeling
-
-The original dataset was split into four tables to simulate a basic data warehouse (star schema):
-
-### Dimension Tables
+## Datasets
 
 * **customers**: customer_id, customer_name, segment
 * **orders**: order_id, order_date, ship_date, ship_mode, customer_id
 * **products**: product_id, product_name, category, sub_category
-
-### Fact Table
-
 * **sales**: order_id, product_id, sales
-
-This structure allows for more realistic SQL queries using joins.
 
 ---
 
@@ -93,7 +83,7 @@ The following visualizations were created:
 
 ## Conclusion
 
-This project demonstrates how to structure data into a relational model and perform SQL-based BI analysis using multiple tables. The results highlight the importance of joins, aggregation, and correct data granularity in producing meaningful business insights.
+This project demonstrates how to perform SQL-based BI analysis using multiple tables. The results highlight the importance of joins, aggregation, and correct data granularity in producing meaningful business insights.
 
 ---
 
